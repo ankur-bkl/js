@@ -1,5 +1,14 @@
-let a = 10;
-let b ='10';
+let a = 10; // number
+let b ='10'; // string
 
-console.log(a==b);
-console.log(a===b);
+//equal to
+console.log(a==b); //it checks if the values are same
+
+//strict equal to
+console.log(a===b); // it strictly checks the type and value both
+
+//strict not equal to
+console.log(a!==b);
+
+//not equal to
+console.log(a!=b);
