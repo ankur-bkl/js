@@ -1,3 +1,5 @@
-const {moduleMy} =require('./module1')
+// this is how you access 
 
-console.log(moduleMy); 
+const {yoo} = require('./module1') // use to import it from different directory
+
+console.log(yoo)
